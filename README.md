@@ -10,7 +10,7 @@ Lisp and scratch inspired esolang, with a javascript interpreter for ease of use
 
 ## Truth Machine
 ```
-[Str, "inp", [ask, ""]]
+[Str, "inp", [ask, "Input?"]]
 
 [if, inp = "1",{
   [goto, Loop]
